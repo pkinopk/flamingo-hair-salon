@@ -1,0 +1,15 @@
+@media only screen and (max-width: 480px) {
+  .call-to-action h1 {
+    font-size: 35pt !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-text h1,
+  .landing-text h2 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+}

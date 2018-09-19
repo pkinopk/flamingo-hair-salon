@@ -1,0 +1,129 @@
+#wrapper {
+  overflow-x: hidden;
+}
+
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./img/temp.jpg') no-repeat 100% 100%;
+  background-size: cover;
+  height: 100vh;
+}
+.call-to-action {
+  color: white;
+  margin-top: 30vh;
+}
+.call-to-action h1 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 45pt;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+p,
+tr,
+span {
+  font-family: 'Overpass', sans-serif;
+}
+h4 {
+  font-family: 'Chivo', sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+.modal-text {
+  background-color: #fefefe;
+  margin-top: 40vh;
+  padding-bottom: 20px;
+  border: 1px solid #888;
+  width: 80% !important;
+}
+
+/* The Close Button */
+.closeModal {
+  color: #aaa;
+  float: right !important;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeModal:hover,
+.closeModal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.dashedLine {
+  border: 0.5px dashed #b7b7b7;
+  margin: 0;
+  position: relative;
+  top: -4px;
+}
+
+.services {
+  margin: 5rem 1rem 5rem 1rem;
+  visibility: hidden;
+}
+
+.services h4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25pt;
+  color: #d82020;
+}
+.services h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 40pt;
+  font-family: 'Dancing Script', cursive;
+  color: #d82020;
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+  -webkit-animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  visibility: visible;
+}
+
+.tax {
+  font-size: 15pt;
+  font-family: 'Dancing Script', cursive;
+  color: #d82020;
+}
